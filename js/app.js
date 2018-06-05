@@ -50,7 +50,7 @@
     		}
 
     		modelIsVisable = true;
-    		
+
         var $modal = $('#modal-prompt').modal({
             dismissible: false,
             onCloseEnd: function() {
@@ -97,21 +97,3 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-
-
-// 58
-//   server.on("/fwd", handleFWD);
-// 159
-//   server.on("/back", handleBACK);
-// 160
-//   server.on("/right", handleRIGHT);
-// 161
-//   server.on("/left", handleLEFT);
-// 162
-//   server.on("/moon", handleMOON);
-// 163
-//   server.on("/home", handleHOME);
-// 164
-//   server.on("/updown", handleUPDOWN);
-// 165
-//   server.on("/bend", handleBEND);
